@@ -1,0 +1,7 @@
+
+    .carousel-item img {
+        width: 100%;
+        height: 400px; /* Altere para o valor desejado */
+        object-fit: cover; /* Isso vai garantir que a imagem ocupe completamente a área sem distorcer */
+
+    }

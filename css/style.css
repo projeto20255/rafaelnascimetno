@@ -1,0 +1,5 @@
+.carousel-item img {
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço do carrossel */
+    height: 500px; /* A imagem ocupará toda a altura definida */
+    width: 100%; /* A imagem ocupará toda a largura do carrossel */
+}
