@@ -12,13 +12,13 @@ include('includes/cabecalho.php');
     </div>
 
     <!-- Login Form -->
-    <form method="POST">
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login" required>
-            <input type="password" id="password" class="fadeIn third" name="password" placeholder="password" required>
-            <input type="submit" class="fadeIn fourth" value="Log In">
-        </form>
+    <form method="POST" action="sistema/config/process.php">
+        <input type="text" id="login" class="fadeIn second" name="login" placeholder="login" required>
+        <input type="password" id="password" class="fadeIn third" name="password" placeholder="password" required>
+        <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
 
-    <!-- Remind Passowrd -->
+    <!-- Remind Password -->
     <div id="formFooter">
       <a class="underlineHover" href="#">Forgot Password?</a>
     </div>
